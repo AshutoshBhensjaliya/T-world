@@ -1,0 +1,23 @@
+.quote-container {
+    width: 100%;
+}
+
+.quote-container img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.quote-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5 rem;
+}

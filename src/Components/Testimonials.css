@@ -1,0 +1,36 @@
+.Client-Container{
+  padding: 30px;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Client-Container img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.Client-Card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Container2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+h2{
+  font-size: 3rem;
+  margin:6vh;
+  padding:1vh 5vw;
+  color: #2c3e50;
+}
